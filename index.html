@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Swag Shop | Home</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging whena phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+<link href="css/styles.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,700|Parisienne" rel="stylesheet">
+
+
+     
+</head>
+<body>
+	<div class="wrapper">
+
+<!-- HEADER STARTS HERE -->
+<header>
+	<img src="images/swag-logo.png" class="logo">
+	<h1>Swag Shop</h1>
+</header>
+
+<!-- NAV STARTS HERE -->
+<nav class="clearfix">
+	<button id="hamburgerBtn">&#9776</button>
+	<ul id="primaryNav" class="closed">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Products</a>
+			<ul class="dropdown">
+			  <li><a href="#">Water Bottles</a></li>
+			  <li><a href="#">Hats</a></li>
+			  <li><a href="#">Shirts</a></li>
+			</ul>
+		  </li>
+		<li><a href="#">Deals</a></li>
+		<li><a href="#">Order</a></li>
+
+		<li><a href="#">Customer Reviews</a></li>
+	</ul>
+</nav>    
+    
+<!-- MAIN STARTS HERE -->
+<main class="clearfix">
+
+	<form action="thanks.html" method="GET">
+		<fieldset>
+			<legend>Customer Information</legend>
+			<label class="top">Full Name* <input type="text" name="fname" required></label>
+			<label class="top">Phone* <input type="tel" name="phone" required></label>
+			<label class="top">Email* <input type="email" name="email" placeholder="1234567890" required></label>
+		</fieldset>
+
+		<fieldset>
+			<legend>Swag Information</legend>
+			<label class="top">Date Needed <input type="text" name="need"></label>
+			<label class="top">Business Name <input type="text" name="business"></label>
+			<label class="top">Color 
+				<select name="color">
+				<option value="">Please Select    &#9662;</option>
+				<option value="black">Black</option>
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+				<option value="orange">Orange</option>
+				<option value="purple">Purple</option>
+				<option value="red">Red</option>
+				<option value="white">White</option>
+				<option value="yellow">Yellow</option>
+			</select>
+			</label>
+
+			<label class="top">Quantity <input type="number" name="quantity"></label>
+			<label class="sbs">Aluminum <input type="radio" name="material"></label>
+			<label class="sbs">Plastic <input type="radio" name="material"></label>
+		</fieldset>
+
+		<fieldset>
+				<legend>Payment Information</legend>
+				<label class="top">Name on Card* <input type="text" name="namecard" required></label>
+				<label class="top">Card Number* <input type="tel" name="cardnum" required></label>
+				<label class="top">Expiration Date* <input type="date" name="expire" required></label>
+		</fieldset>
+
+		<input type="submit" class="submitBtn" value="Order My Swag">
+
+
+	</form>
+
+
+</main>
+    
+<!-- FOOTER STARTS HERE --> 
+<footer>
+	<p class="copy">&copy;Wyatt Allan 2020 All rights reserved &bull; <a href="tel:6613127633">(661)-312-7633</a></p>
+</footer>
+	
+	<script src="js/menuToggle.js"></script>
+
+	</div> <!-- End Wrapper -->
+</body>
+</html>

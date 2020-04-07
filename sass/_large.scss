@@ -1,0 +1,50 @@
+
+
+header {
+	height: 100px;
+}
+
+/*  ------------- NAV -------------  */
+nav {
+	ul {
+		border-left: 1px solid rgba(0,0,0,0.3);
+		height: 150px;
+		background: rgba(0, 0, 0, 0)
+	}
+	ul li {
+		width: auto;
+		position: relative;
+	}// end li
+	ul li:last-child {border-right: 1px solid rgba(0,0,0,0.3);}
+	ul li a {
+		padding: .5rem 1rem;
+	} // and a
+
+	ul li ul {
+		position: absolute;
+		display: inline-block;
+		left: 0;
+		top: 100%;
+		// padding: 10px 20px;
+		z-index: 999;
+		// &:hover {display: block;}
+	}
+
+	.dropdown {
+	}
+} // end nav
+
+.wrapper {
+	max-width: 75rem;
+	margin: 0 auto;
+}
+
+/*  ------------- MAIN -------------  */
+main {
+	margin: auto;
+
+	form label.sbs {
+		padding: .4rem 0;
+	}
+       
+} // end main

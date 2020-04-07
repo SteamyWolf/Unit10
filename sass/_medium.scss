@@ -1,0 +1,58 @@
+
+/*  ------------- NAGIVATION -------------  */
+
+nav {
+	// position: relative;
+	ul.closed {max-height: 3rem;}
+
+	button {display: none;}
+
+	ul {
+		margin-left: 2%;
+	}
+
+	ul li.active a {background-color: $primaryColor;}
+
+	ul li a {
+		border: none;
+		border-right: 1px solid rgba(182, 182, 182, 0.2);
+		padding: .7rem .9rem;
+		transition: background 0.3s linear;
+		-webkit-transition: background 0.3s linear;
+		
+
+		&:hover {background-color: darken($menuColor, 10%);}
+	}
+	
+	ul li {float: left;}
+
+	ul li ul {
+		visibility: hidden;
+		opacity: 0;
+		position: absolute;
+		transition: all 0.5s ease;
+		// margin-top: 1rem;
+		left: 72px;
+		display: none;
+		background-color: $menuColor;
+	}
+	
+	ul li:focus-within > ul,
+	ul li ul:focus{
+		visibility: visible;
+		opacity: 1;
+		display: block;
+
+		ul {
+			visibility: visible;
+		}
+	}
+	
+	ul li ul li {
+		clear: both;
+		width: 100%;
+	}
+}
+
+
+
