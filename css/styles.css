@@ -112,7 +112,7 @@ html, body {
   max-width: 64rem; }
 
 header {
-  background-color: #37444e;
+  background-color: #596d3e;
   height: 120px;
   padding: 1rem 30px; }
   header h1 {
@@ -127,12 +127,12 @@ header {
 
 /*  ------------- HEADER -------------  */
 header {
-  background-color: #37444e; }
+  background-color: #596d3e; }
 
 /*  ------------- NAV -------------  */
 nav {
   align-self: center;
-  background-color: #37444e;
+  background-color: #596d3e;
   /* ------------------------------------------------------------------------- */
   /* ------------------------------------------------------------------------- */ }
   nav button {
@@ -157,7 +157,7 @@ nav {
     -webkit-transition: max-height 0.5s;
     -moz-transition: max-height 0.5s; }
   nav ul li.active a {
-    background-color: #37444e; }
+    background-color: #596d3e; }
   nav ul li ul li a {
     padding-left: 8%; }
   nav #primaryNav li.parent > a:after {
@@ -169,7 +169,7 @@ nav {
     background: black; }
   nav #primaryNav li ul {
     display: none;
-    background: #37444e;
+    background: #596d3e;
     padding: 0; }
   nav #primaryNav li:hover ul {
     display: block; }
@@ -217,7 +217,7 @@ main form label.sbs {
   font-size: 1.15rem; }
 main form input.submitBtn {
   border: none;
-  background-color: #42556e;
+  background-color: #436e42;
   color: white;
   border-radius: 2rem;
   padding: .75rem 1.5rem;
@@ -231,17 +231,17 @@ main form label.top input:required:valid {
 main h1 {
   font-size: 2rem;
   margin: 1.5rem 0 .5rem 0;
-  color: #37444e; }
+  color: #596d3e; }
 main h2 {
   font-size: 1.2rem;
   margin: 1.1rem 0 .2rem 0;
-  color: #61788a; }
+  color: #8da968; }
 
 /*  ------------- FOOTER -------------  */
 footer {
   align-self: center;
   width: 100%;
-  background-color: #37444e; }
+  background-color: #596d3e; }
   footer p {
     text-align: center;
     color: #c5c5c5;
@@ -259,13 +259,13 @@ footer {
 @media only screen and (min-width: 35em) {
   /*  ------------- NAGIVATION -------------  */
   nav ul.closed {
-    max-height: 3rem; }
+    max-height: 25rem; }
   nav button {
     display: none; }
   nav ul {
     margin-left: 2%; }
   nav ul li.active a {
-    background-color: #37444e; }
+    background-color: #596d3e; }
   nav ul li a {
     border: none;
     border-right: 1px solid rgba(182, 182, 182, 0.2);
@@ -273,7 +273,7 @@ footer {
     transition: background 0.3s linear;
     -webkit-transition: background 0.3s linear; }
     nav ul li a:hover {
-      background-color: #222a30; }
+      background-color: #3e4c2c; }
   nav ul li {
     float: left; }
   nav ul li ul {
@@ -283,7 +283,7 @@ footer {
     transition: all 0.5s ease;
     left: 72px;
     display: none;
-    background-color: #37444e; }
+    background-color: #596d3e; }
   nav ul li:focus-within > ul,
   nav ul li ul:focus {
     visibility: visible;
